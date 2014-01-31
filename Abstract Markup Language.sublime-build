@@ -1,0 +1,5 @@
+{
+	"cmd": ["aml", "--build", "$file"],
+	"shell_cmd": "aml --build $file",
+	"selector": "source.aml"
+}
