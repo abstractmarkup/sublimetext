@@ -1,0 +1,42 @@
+@aml = Abstract Markup Language
+
+%%code(:text=>''){
+	<pre><code>@(:text)</code></pre>
+}
+
+%%section(:a=>'',:name=>''){
+	%h3
+		%a.anchor{:name=>'@(:a)',:href=>'#@(:a)'}
+			%span.octicon.octicon-link
+		@(:name)
+}
+
+%(.html5)
+	%head
+		%/meta{:charset=>'utf-8'}
+		%/meta{:name=>'description', :content=>'Sublime Text : @(aml) syntax highlighting, code snippets, and build system for Sublime Text.'}
+		%title Sublime Text Package
+		%(.css){:href=>'stylesheets/stylesheet.css'}
+	%body
+		%(~header)
+		%!-- MAIN CONTENT --%
+		%div#main_content_wrap.outer
+			%section#main_content.inner
+
+				%(section){:a=>'abstract-markup-language',:name=>'@(aml)'}
+				%p RubyGems is required (with Ruby 2.0.0+) to install @(aml)
+
+				%(code){:text=>'$ sudo gem install aml'}
+				
+				%(section){:a=>'sublime-package',:name=>'Sublime Text Package'}
+				%p
+					You can install the Sublime Abstract Markup Language Package via the
+					%a{:href=>'http://wbond.net/sublime_packages/package_control'} Package Control
+					by wbond.
+				%p
+					%/img{:src=>'images/package_install.png', :title=>'Install @(aml) Sublime Package', :alt=>'Install'}
+
+				%(section){:a=>'about',:name=>'About'}
+				%p @(aml) is a robust and feature rich markup language designed to avoid repetition and promote clear, well-indented markup.
+		
+		%(~footer)

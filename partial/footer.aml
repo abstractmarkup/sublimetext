@@ -1,0 +1,5 @@
+%div#footer_wrap.outer
+	%footer.inner
+		%p.copyright
+			Package maintained by
+			%a{:href=>'https://github.com/abstractmarkup'} abstractmarkup
