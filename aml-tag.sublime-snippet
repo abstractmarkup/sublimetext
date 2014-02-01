@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[%${1:tag}#${2:id}.${3:class}{:${4:attribute}=>'${5:value}'}]]></content>
-    <tabTrigger>%</tabTrigger>
-    <scope>source.aml</scope>
-    <description>Tag</description>
-</snippet>

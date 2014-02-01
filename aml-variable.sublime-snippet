@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[@${1:variable} = ${2:value}]]></content>
-    <tabTrigger>@</tabTrigger>
-    <scope>source.aml</scope>
-    <description>Variable Definition</description>
-</snippet>

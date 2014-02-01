@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[%%${1:mixin}(:${2:attribute}=>'${3:value}'){
-    %${4:div}
-}]]></content>
-    <tabTrigger>%%{}</tabTrigger>
-    <scope>source.aml</scope>
-    <description>Mixin Definition</description>
-</snippet>
