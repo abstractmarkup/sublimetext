@@ -3,6 +3,3 @@
 		%a#forkme_banner{:href=>'https://github.com/abstractmarkup/sublimetext'} View on GitHub
 		%h1#project_title Sublime Text Package
 		%h2#project_tagline @(aml) syntax highlighting, code snippets, and build system for Sublime Text.
-		%section#downloads
-			%a.zip_download_link{:href=>'https://github.com/abstractmarkup/sublimetext/zipball/master'} Download this project as a .zip file
-			%a.zip_download_link{:href=>'https://github.com/abstractmarkup/sublimetext/tarball/master'} Download this project as a tar.gz file
